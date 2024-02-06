@@ -1,0 +1,10 @@
+.favorite {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(182, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}

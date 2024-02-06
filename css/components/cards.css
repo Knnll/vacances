@@ -1,0 +1,70 @@
+/* Your card CSS file */
+body {
+  background-color: antiquewhite;
+}
+.card-category {
+  background-image: url("../../images/jayac_friends.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: white;
+  height: 40vh;
+  width: 100%;
+  border-radius:8px;
+  text-shadow: 0px 10px 10px black;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-product {
+  background: white;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-product img {
+  padding-left: 10px;
+  height: 200px;
+}
+/*
+.image {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+} */
+
+.card-trip {
+  background: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin: 7px;
+  position: relative;
+}
+
+.card-trip .favorite {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+.image-city {
+  border-radius: 5px;
+}
+
+.pp {
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  margin: -7;
+}
+
+.add-fav {
+  /* margin: -2; */
+  font-size: 13px;
+}
